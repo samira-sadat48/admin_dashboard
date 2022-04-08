@@ -20,6 +20,31 @@
 .header {
     background-color: antiquewhite;
     grid-column: 2 / 5;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.header h3, .header h2 {
+    color: black;
+}
+
+.top-bar-header {
+    display:grid;
+    grid-template-columns: 10fr 1fr 1fr 2fr;
+}
+
+.bottom-bar-header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 3fr;
+}
+
+.bottom-bar-header ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+    background-color: #0284c7;
 }
 
 .side-bar-left {
@@ -33,4 +58,16 @@
 
 .side-bar-right {
     background-color: #0284c7;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
 }
