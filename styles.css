@@ -94,19 +94,31 @@
 /* Side Bar Left*/
 
 .side-bar-left {
-    background-color: #5b7db1;
+    background-color: #1a132f;
     grid-row: 1 / 5;
+    box-shadow: rgba(0,0,0,0.15) 2px 2px 2.5px;
+    z-index: 2
 }
 
 /*Article*/
 .article {
-    background-color: #61a4bc;
+    background-color: #5b7db1;
+}
+
+.article .card {
+    height: 250px;
+    width:250px;
 }
 
 /*Side Bar Right*/
 
 .side-bar-right {
-    background-color: #61a4bc;
+    background-color: #5b7db1;
+}
+
+/*Card*/
+.card {
+    background-color: #61A4bc;
 }
 
 /*General*/
