@@ -93,7 +93,32 @@
     background-color: #1a132f;
     grid-row: 1 / 5;
     box-shadow: rgba(0,0,0,0.15) 2px 2px 2.5px;
-    z-index: 2
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 1fr 4fr 6fr;
+    align-items:flex-start;
+}
+
+.nav-grid-header {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+    gap: 4px;
+    height:80px;
+}
+
+.nav-grid-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,1fr);
+    gap: 20px;
+}
+
+.nav-grid-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
 }
 
 /*Article*/
@@ -134,4 +159,8 @@ h3 {
 .icon {
     width: 24px;
     height: 24px;
+}
+
+.filter-white {
+    filter: invert(1);
 }
