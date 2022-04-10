@@ -97,6 +97,7 @@
     display: grid;
     grid-template-rows: 1fr 4fr 6fr;
     align-items:flex-start;
+    padding-left: 15px;
 }
 
 .nav-grid-header {
@@ -119,6 +120,12 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3,1fr);
     gap: 20px;
+}
+
+.nav-row-box {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
 }
 
 /*Article*/
