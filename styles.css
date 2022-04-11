@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 4fr;
-    font-family: "Roboto", Arial, sans-serif
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 .container div {
@@ -141,7 +141,32 @@
 /*Side Bar Right*/
 
 .side-bar-right {
-    background-color: #5b7db1;
+    /*background-color: #5b7db1;*/
+    background-color: #61A4bc;
+}
+
+.annoucements-section {
+
+}
+
+.annoucements-card {
+
+}
+
+.annoucements-card p {
+    font-size: 12px;
+}
+
+.trending-section {
+
+}
+
+.trending-card {
+
+}
+
+.trending-card p {
+    font-size: 12px;
 }
 
 /*Card*/
@@ -161,6 +186,10 @@ h2 {
 
 h3 {
     font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
 }
 
 .icon {
