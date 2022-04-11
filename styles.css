@@ -143,7 +143,7 @@
 .side-bar-right {
     background-color: #5b7db1;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1.25fr;
     align-items:flex-start;
     padding-left: 15px;
     padding-right: 15px;
@@ -175,10 +175,30 @@
 .trending-card {
     background-color: #61A4bc;
     padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .trending-card p {
     font-size: 12px;
+}
+
+.trending-box {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.trending-box-text {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 4px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
 }
 
 /*Card*/
@@ -206,6 +226,8 @@ h4 {
 
 hr {
     color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .icon {
