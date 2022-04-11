@@ -141,28 +141,40 @@
 /*Side Bar Right*/
 
 .side-bar-right {
-    /*background-color: #5b7db1;*/
-    background-color: #61A4bc;
+    background-color: #5b7db1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items:flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:30px;
 }
 
 .annoucements-section {
-
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    gap: 6px;
 }
 
 .annoucements-card {
-
+    background-color: #61A4bc;
+    padding: 10px;
 }
 
 .annoucements-card p {
     font-size: 12px;
 }
 
-.trending-section {
 
+.trending-section {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    gap:6px;
 }
 
 .trending-card {
-
+    background-color: #61A4bc;
+    padding: 10px;
 }
 
 .trending-card p {
@@ -190,6 +202,10 @@ h3 {
 
 h4 {
     font-size: 14px;
+}
+
+hr {
+    color: white;
 }
 
 .icon {
